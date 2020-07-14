@@ -1,0 +1,41 @@
+.game{
+  display: grid;
+  grid-template-columns: repeat(10,30px);
+  position: fixed;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.square{
+  background-color: burlywood;
+  border:1px solid mediumaquamarine;
+  text-align: center;
+  cursor: pointer;
+  height: 30px;
+  line-height: 30px;
+}
+.square.open{
+  background-color: floralwhite;
+}
+.square.x1{
+  color: green;
+}
+.square.x2{
+  color: blue;
+}.square.x3{
+  color: yellow;
+}.square.x4{
+  color: red;
+}.square.x5{
+  color: salmon;
+}.square.x0{
+  text-indent: -999999px;
+}
+.square.x-1{
+  text-indent: -9999999px;
+  background-image: url('./image/download.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 13px;
+  background-color: rgb(223, 210, 210);
+}
